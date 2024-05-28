@@ -1,0 +1,172 @@
+@import url("variables.css");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+
+.big-bookcard {
+  padding: 24px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #fff;
+  gap: 16px;
+  transition: all 0.3s ease-in;
+}
+
+.big-bookcard:hover {
+  transform: scale(1.02);
+}
+
+.big-bookcard:hover + .content_header-book-title {
+  color: var(--light-blue);
+}
+
+.bookcard-img {
+  width: 246px;
+  height: 357px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.content {
+  width: 246px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.content_header {
+  width: 246px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.content_header-author {
+  width: 246px;
+  height: 16px;
+  color: var(--Black-Medium-empathis);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.021px;
+  text-overflow: ellipsis;
+}
+
+.content_header-book-title {
+  width: 246px;
+  height: 16px;
+  color: var(--Black-Medium-empathis, rgba(0, 0, 0, 0.6));
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.021px;
+  text-overflow: ellipsis;
+}
+
+.bookcard {
+  width: 395px;
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.bookcard img {
+  width: 120px;
+  height: 184px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+
+.bookcard .content {
+  height: 184px;
+  width: 171px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  gap: 16px;
+}
+
+.bookcard .content .author {
+  width: 171px;
+  color: var(--Black-High-empathis, rgba(0, 0, 0, 0.87));
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.021px;
+}
+
+.bookcard .content .title {
+  width: 171px;
+  color: var(--Black-High-empathis, rgba(0, 0, 0, 0.87));
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.021px;
+}
+
+.author_card {
+  width: 1200px;
+  height: 594px;
+  display: flex;
+  padding: 24px;
+  justify-content: start;
+  align-items: center;
+  gap: 200px;
+  border-radius: 20px;
+  background: var(--Black-bg, #2a2c2e);
+}
+
+.author_card img {
+  width: 314px;
+  height: 476px;
+  object-fit: contain;
+}
+
+.author_card .content {
+  height: 476px;
+  width: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.author_card .content h2 {
+  color: var(--White-High-emphasis, #fff);
+  font-family: "DM Sans", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.08px;
+  text-transform: uppercase;
+}
+
+.author_card .content p {
+  width: 620px;
+  color: var(--White-High-emphasis, #fff);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.024px;
+}

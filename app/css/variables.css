@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Clash Grotesk Variable";
+  src: url("../fonts/ClashGrotesk-Variable.woff2") format("woff2"),
+    url("../fonts/ClashGrotesk-Variable.woff") format("woff"),
+    url("../fonts /ClashGrotesk-Variable.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --Black-Medium-empathis: rgba(0, 0, 0, 0.6);
+  --black-bg: #2a2c2e;
+  --white: #fff;
+  --yellow-500: #f4ce47;
+  --gray-3: #f6f4f0;
+  --light-blue: #4264fd;
+}

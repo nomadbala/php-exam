@@ -1,0 +1,43 @@
+@import url("variables.css");
+
+.icon-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.main-logo {
+  width: 166px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-left: 24px;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#footer {
+  height: 88px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--black-bg);
+  margin-top: 64px;
+}
+
+.footer_menu {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-right: 24px;
+}

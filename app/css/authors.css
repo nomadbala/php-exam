@@ -1,0 +1,18 @@
+body {
+  min-height: 100vh;
+  background: var(--gray-3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  margin-top: 24px;
+}
+
+main ol {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

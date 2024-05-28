@@ -1,0 +1,72 @@
+@import url("reset.css");
+@import url("variables.css");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+
+body {
+  min-height: 100vh;
+  background: var(--gray-3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_legend {
+  margin-top: 32px;
+  fill: var(--black-bg);
+  width: 1200px;
+  height: 51px;
+}
+
+main {
+  width: 100%;
+  margin-top: 24px;
+  background: var(--black-bg);
+  height: 700px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.section-1 .main_header {
+  color: var(--White-High-emphasis, #fff);
+  font-family: "DM Sans", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.08px;
+  text-transform: uppercase;
+  padding: 44px 24px;
+}
+
+.section-1 .book-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.section-1 .book-list .btn_all-books {
+  display: flex;
+  width: 427px;
+  height: 216px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--Yellow-500, #f4ce47);
+  color: var(--Black-High-empathis, rgba(0, 0, 0, 0.87));
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.08px;
+  text-transform: uppercase;
+}

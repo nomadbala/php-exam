@@ -1,0 +1,86 @@
+@import url("reset.css");
+@import url("variables.css");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+
+body {
+  min-height: 100vh;
+  background: var(--gray-3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  width: 96%;
+  height: 580px;
+  margin-top: 32px;
+  background: var(--black-bg);
+  border-radius: 20px;
+  padding: 64px 24px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+  transition: all 0.3s ease-in;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+#exit-account-btn {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  padding: 16px 28px;
+  gap: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: var(--yellow-500);
+  color: var(--Black-High-empathis, rgba(0, 0, 0, 0.87));
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+}
+
+.subscription-btn {
+  width: 100px;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  padding: 16px 28px;
+  gap: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: var(--yellow-500);
+  color: var(--Black-High-empathis, rgba(0, 0, 0, 0.87));
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.024px;
+}
